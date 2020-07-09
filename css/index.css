@@ -1,0 +1,386 @@
+body {
+  background-color: pink; }
+
+.fries {
+  position: absolute;
+  top: 20%;
+  left: 30%; }
+
+.cover {
+  filter: drop-shadow(-16px 15px 20px rgba(0, 0, 0, 0.75));
+  z-index: 10; }
+
+.backCover {
+  filter: drop-shadow(-16px 15px 20px rgba(0, 0, 0, 0.75));
+  z-index: -10; }
+
+.container {
+  background: #a71014;
+  background: linear-gradient(90deg, #a71014 15%, #b8171d 40%, #b8171d 60%, #a71014 85%);
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 190px;
+  left: 69px;
+  z-index: 3;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+  border-radius: 0 0 10px 0;
+  border-bottom: 10px solid transparent; }
+  .container::after {
+    content: '';
+    background-color: #F2F1EF;
+    width: 550px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 95%;
+    right: -40%; }
+  .container::before {
+    content: '';
+    width: 220px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    left: 14%; }
+
+.back {
+  width: 310px;
+  height: 250px;
+  z-index: -10;
+  position: absolute;
+  left: 65px;
+  top: 40px;
+  background-color: #F2F1EF;
+  clip-path: ellipse(50% 40% at 50% 50%); }
+
+.fry1 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 1));
+  transform: rotate(-5deg); }
+  .fry1::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry2 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 2));
+  transform: rotate(-5deg); }
+  .fry2::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry3 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 3));
+  transform: rotate(-5deg); }
+  .fry3::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry4 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 4));
+  transform: rotate(-5deg); }
+  .fry4::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry5 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 5));
+  transform: rotate(-5deg); }
+  .fry5::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry6 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 6));
+  transform: rotate(-5deg); }
+  .fry6::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry7 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 7));
+  transform: rotate(-5deg); }
+  .fry7::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry8 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 10%;
+  left: calc(70px + (30px * 8));
+  transform: rotate(-5deg); }
+  .fry8::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry9 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 9));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry9::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry10 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 10));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry10::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry11 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 11));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry11::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry12 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 12));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry12::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry13 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 13));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry13::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry14 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 14));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry14::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry15 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 15));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry15::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry16 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 16));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry16::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry17 {
+  background-color: #F7D333;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  top: 70px;
+  left: calc(-180px + (30px * 17));
+  transform: rotate(-5deg);
+  z-index: 2; }
+  .fry17::after {
+    content: '';
+    background-color: #EFB319;
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    left: 90%;
+    perspective: 1000px; }
+
+.fry3 {
+  transform: rotate(3deg); }
+  .fry3::after {
+    left: -30%; }
+
+.fry6 {
+  transform: rotate(6deg); }
+  .fry6::after {
+    left: -30%; }
+
+.fry7 {
+  transform: rotate(7deg); }
+  .fry7::after {
+    left: -30%; }
+
+.fry12 {
+  transform: rotate(10deg); }
+
+.fry15 {
+  transform: rotate(10deg); }
+
+.fry17 {
+  transform: rotate(10deg); }
+
+.fry9 {
+  transform: rotate(0deg); }
+
+.fry11 {
+  transform: rotate(0deg); }
+
+/*# sourceMappingURL=index.css.map */
